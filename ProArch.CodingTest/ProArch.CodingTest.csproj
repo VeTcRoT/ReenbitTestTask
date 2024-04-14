@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>ProArch.CodingTest</AssemblyName>
+    <RootNamespace>ProArch.CodingTest</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ProArch.CodingTest.External\ProArch.CodingTest.External.csproj" />
+  </ItemGroup>
+
+</Project>
