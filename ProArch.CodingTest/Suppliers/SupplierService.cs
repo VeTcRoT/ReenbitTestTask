@@ -1,6 +1,8 @@
-﻿namespace ProArch.CodingTest.Suppliers
+﻿using ProArch.CodingTest.Interfaces.Services;
+
+namespace ProArch.CodingTest.Suppliers
 {
-    public class SupplierService
+    public class SupplierService : ISupplierService
     {
         public Supplier GetById(int id)
         {

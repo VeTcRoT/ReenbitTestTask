@@ -10,7 +10,7 @@ namespace ProArch.CodingTest.Invoices
 
         public FailoverInvoiceCollection()
         {
-            this.Invoices = new ExternalInvoice[0];
+            Invoices = new ExternalInvoice[0];
         }
     }
 }
